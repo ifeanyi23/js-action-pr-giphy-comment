@@ -1,5 +1,5 @@
 # action.yml
-name: 'Giphy PR Comment'
+name: 'Joseph Giphy PR Comment'
 description: 'Add a Giphy GIF comment to new pull requests .'
 inputs:
   github-token:  # id of input
@@ -12,3 +12,7 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
+branding:
+  icon: 'award'
+  color: 'green'
